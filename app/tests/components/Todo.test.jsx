@@ -20,7 +20,6 @@ describe('Todo', () => {
     }
 
     var spy = expect.createSpy();
-
     var todo = TestUtils.renderIntoDocument(<Todo {...todoData} onToggle={spy}/>);
 
     // todo.setState({})
