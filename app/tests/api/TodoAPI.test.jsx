@@ -56,15 +56,15 @@ describe('TodoAPI', () => {
 
   describe('filterTodos', () => {
     var todos = [{
-        id: 23,
+        id: 1,
         text: 'some text here',
         completed: true
       },{
-          id: 23,
+          id: 2,
           text: 'some text here',
           completed: false
       },{
-        id: 23,
+        id: 3,
         text: 'yee text here',
         completed: true
     }];
