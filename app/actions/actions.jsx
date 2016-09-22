@@ -3,14 +3,14 @@ export var setSearchText = (searchText) => {
     type: 'SET_SEARCH_TEXT',
     searchText
   };
-}
+};
 
 export var addTodo = (todo) => {
   return {
     type: 'ADD_TODO',
     todo
   };
-}
+};
 
 
 export var toggleShowCompleted = () => {
