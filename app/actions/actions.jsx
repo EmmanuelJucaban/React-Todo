@@ -5,10 +5,10 @@ export var setSearchText = (searchText) => {
   };
 };
 
-export var addTodo = (todo) => {
+export var addTodo = (text) => {
   return {
     type: 'ADD_TODO',
-    todo
+    text
   };
 };
 
