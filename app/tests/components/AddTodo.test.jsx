@@ -28,7 +28,6 @@ describe('AddTodo', () => {
     expect(spy).toHaveBeenCalledWith(action);
   });
 
-
   it('should not dispatch AddTodo prop with invalid todo text', () => {
     var todoText = '';
     var spy = expect.createSpy();
@@ -42,7 +41,6 @@ describe('AddTodo', () => {
     // jQuery element
     // the 0 grabs the first instance
     TestUtils.Simulate.submit($el.find('form')[0]);
-
     expect(spy).toNotHaveBeenCalled();
   });
 });
